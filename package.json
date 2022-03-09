@@ -1,0 +1,34 @@
+{
+  "name": "type-challenges",
+  "version": "0.1.0",
+  "description": "类型体操解题仓库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xeonice/type-challenges.git"
+  },
+  "author": "DouglasDong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xeonice/type-challenges/issues"
+  },
+  "homepage": "https://github.com/Xeonice/type-challenges#readme",
+  "devDependencies": {
+    "tsup": "^5.12.0"
+  },
+  "tsup": {
+    "entry": [
+      "src/index.ts"
+    ],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true
+  },
+  "dependencies": {
+    "@type-challenges/utils": "^0.1.1"
+  }
+}
