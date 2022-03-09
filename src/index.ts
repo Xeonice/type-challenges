@@ -1,1 +1,1 @@
-export * from './challenge1';
+export * from './easy';

@@ -37,7 +37,7 @@
 /* _____________ 你的代码 _____________ */
 
 export type MyReadonly<T> = {
-  readonly [P in keyof T]: T[P]
+  readonly [P in keyof T]: T[P];
 }
 
 
